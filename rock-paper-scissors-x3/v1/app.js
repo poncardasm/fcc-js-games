@@ -46,3 +46,11 @@ paperBtn.addEventListener('click', () => {
   computerChoiceDisplay.textContent = computerChoice;
   resultDisplay.textContent = getResult(playerChoice, computerChoice);
 });
+
+scissorsBtn.addEventListener('click', () => {
+  const playerChoice = '✂️ Scissors';
+  const computerChoice = getComputerChoice();
+  playerChoiceDisplay.textContent = playerChoice;
+  computerChoiceDisplay.textContent = computerChoice;
+  resultDisplay.textContent = getResult(playerChoice, computerChoice);
+});

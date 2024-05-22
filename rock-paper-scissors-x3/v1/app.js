@@ -38,3 +38,11 @@ rockBtn.addEventListener('click', () => {
   computerChoiceDisplay.textContent = computerChoice;
   resultDisplay.textContent = getResult(playerChoice, computerChoice);
 });
+
+paperBtn.addEventListener('click', () => {
+  const playerChoice = '📃 Paper';
+  const computerChoice = getComputerChoice();
+  playerChoiceDisplay.textContent = playerChoice;
+  computerChoiceDisplay.textContent = computerChoice;
+  resultDisplay.textContent = getResult(playerChoice, computerChoice);
+});
